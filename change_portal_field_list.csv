@@ -1,0 +1,181 @@
+Topic;Interface;Realname;Type
+WP;WP Number;Title;Text
+WP;WP Actual Effort (MD);df_actualeffort;Number
+WP;WP Budget Effort (MD);df_budgeteffort;Number
+WP;Demand Launchdate;df_planneddroptoprod;DateTime
+WP;WP Planned Drop to SIT;df_planneddroptosit;DateTime
+WP;is Part of WP Container (deprecated);wp_partofproject;Invalid
+WP;WP Reason for Delay;wp_reasonfordelay;Choice
+WP;WP Description;wp_description;Note
+WP;WP End Date of the Last Task;wp_enddate;DateTime
+WP;WP Manager;wp_manager;User
+WP;WP Months;wp_release;Lookup
+WP;WP Start Date;wp_startdate;DateTime
+WP;WorkPackage;cp_linktowebsite;URL
+WP;WP Health;wp_health;Invalid
+WP;WP Name;wp_name;Text
+WP;WP Delay Description;DelayDescription;Note
+WP;WP Status;wp_status;Choice
+WP;SW Config Version;SWConfVersionFiltered;Lookup
+WP;Demand Number;df_demandnumber;Invalid
+WP;InitiatorOrgInfo;InitiatorOrgInfo;Text
+WP;Link to WP Container;wp_project_linktowebsite;URL
+WP;WP Cost Center Detail;CostCenter;Text
+WP;WP Team Effort;TeamResource;Text
+WP;WP Report Notes;ReportNotes;Note
+WP;Start handle WP changes_b;Start_x0020_handle_x0020_WP_x002;Invalid
+WP;temp;temp;Text
+WP;NotificationSent;NotificationSent;Boolean
+WP;WP Strategic Goal;dm_strategic_goal;Lookup
+WP;WP End Date;wp_wpenddate;DateTime
+WP;Demand Name;wp_demand_name;Text
+WP;Demand Category;wp_demand_category;Text
+WP;Related Project;wp_demand_it_substream;Text
+WP;WP aggregated Budget effort Tasks;wp_budgeteffort_tasks;Number
+WP;Demand Phase;wp_demand_phase;Text
+WP;WP Type Local/ Group;wp_type;Text
+Demand;Demand Number;Title;Text
+Demand;WP Number;df_wpnumber;Invalid
+Demand;Project Number;df_projectnumber;Invalid
+Demand;xOLD_Assessment Effort;t_actualeffort;Invalid
+Demand;Link to Attachments;dm_attachments;URL
+Demand;InitiatorOrgInfo;InitiatorOrgInfo;Text
+Demand;Attachment Link (cp_attlink);cp_attlink;Invalid
+Demand;Link To WP Container;df_project_linktowebsite;URL
+Demand;Link to Workpackage;df_wp_linktowebsite;URL
+Demand;xOLD_setInitiatorOrg;setInitiatorOrg;Invalid
+Demand;xOLD_NotificationSent;NotificationSent;Boolean
+Demand;10 Go 4 Specification (former Go for BRS);dm2_10_go_for_specification;Boolean
+Demand;11 Project Proposal approved;dm2_11_project_proposal_approved;Boolean
+Demand;20 Requirements ready;dm2_20_requirements_ready;Boolean
+Demand;50 Specification approved (content agreed - DRS);dm2_50_specification_approved;Boolean
+Demand;60 Go 4 Realisation;dm2_60_go_for_realisation;Boolean
+Demand;61 Project Assigment approved;dm2_61_project_assignment_appr;Boolean
+Demand;70 Go for UAT;dm2_70_go_for_uat;Boolean
+Demand;90 Demand delivered;dm2_90_demand_delivered;Boolean
+Demand;91 Project Close Down;dm2_91_project_close_down;Boolean
+Demand;Additional CMB presentations required;dm2_add_cmb_presentations_req;Boolean
+Demand;Analysis Demand;dm2_analysis_demand_agreement_1;Boolean
+Demand;Analysis Demand 2;dm2_analysis_demand_agreement_2;Boolean
+Demand;Assessment Effort;dm2_assessment_effort;Number
+Demand;Business Analyst / Technical Project Responsible;dm2_business_analyst;User
+Demand;Demand Manager / Project Manager;dm2_business_owner;User
+Demand;Demand Business Reasons;dm2_business_reasons;Note
+Demand;Demand Owner / Project Owner;dm2_business_sponsor;User
+Demand;CMB Representative;dm2_cmb_representative;User
+Demand;consequences "if not";dm2_consequences_if_not;Note
+Demand;Delivery date (former Wishdate);dm2_delivery_date;DateTime
+Demand;Deployment done;dm2_deployment_done;Boolean
+Demand;Demand Description;dm2_description;Note
+Demand;Effected Environments;dm2_effected_environments;Lookup
+Demand;General Demand;dm2_general_demand_agreement_1;Boolean
+Demand;General Demand 2;dm2_general_demand_agreement_2;Boolean
+Demand;Involved departments;dm2_involved_departments;Number
+Demand;Related Project;dm2_it_substream;Choice
+Demand;Launchdate (total scope in production);dm2_launchdate;DateTime
+Demand;Objective & Constraints;dm2_objective_and_constraints;Note
+Demand;Planned Specification ready (DRS);dm2_planned_specification_ready;DateTime
+Demand;preliminary duration (months);dm2_preliminary_duration;Number
+Demand;preliminary effort estimation - Business internal (MD);dm2_preliminary_effort_est_bus;Number
+Demand;preliminary effort estimation - Technology (MD);dm2_preliminary_effort_est_tech;Number
+Demand;preliminary total effort estimation (MD);dm2_preliminary_effort_est_total;Number
+Demand;preliminary external costs (€);dm2_preliminary_external_costs;Currency
+Demand;Project;dm2_project_agreement_1;Boolean
+Demand;Project 2;dm2_project_agreement_2;Boolean
+Demand;Project Assignment;dm2_project_assignment;DateTime
+Demand;Project Close Down;dm2_project_close_down;DateTime
+Demand;Project Controller;dm2_project_controller;User
+Demand;Project Proposal;dm2_project_proposal;DateTime
+Demand;Project Result achieved (Delivery Date);dm2_project_result_achieved;DateTime
+Demand;Project Start;dm2_project_start;DateTime
+Demand;Small Demand;dm2_small_demand_agreement_1;Boolean
+Demand;Small Demand 2;dm2_small_demand_agreement_2;Boolean
+Demand;Effort Estimation - Business internal (MD);dm2_spec_effort_estimation_bus;Number
+Demand;Effort Estimation - Technology (MD);dm2_spec_effort_estimation_tech;Number
+Demand;Total effort Estimation MD;dm2_spec_effort_estimation_total;Number
+Demand;External costs (€);dm2_spec_external_costs;Currency
+Demand;Standard Request;dm2_standard_demand_agreement_1;Boolean
+Demand;Standard Request 2;dm2_standard_demand_agreement_2;Boolean
+Demand;Demand Status (00/98/99);dm2_status;Choice
+Demand;Supporting Business Analyst;dm2_supporting_business_analyst;User
+Demand;Team Effort (All);dm2_team_effort_all;Note
+Demand;Team Effort of Business Analyst / TPR;dm2_team_effort_business_analyst;Text
+Demand;Team Effort of Project Manager/ Demand Manager;dm2_team_effort_po_bo;Text
+Demand;Team Effort of CMB Representative;dm2_team_effort_steering_rep;Text
+Demand;Team Effort of Supporting BA;dm2_team_effort_supporting_ba;Note
+Demand;TechNotes;dm2_tech_notes;Note
+Demand;Demand Title / Project name;dm2_title;Text
+Demand;UAT approved;dm2_uat_approved;Boolean
+Demand;Target Systems (H3G/Orange);dm2_target_systems;MultiChoice
+Demand;Ranking;dm2_priority;Number
+Demand;Involved business units;dm2_involved_business_units;MultiChoice
+Demand;Strategic Goal;dm2_strategic_goal;Choice
+Demand;Classification;dm2_classification;Lookup
+Demand;21 Requirement documents not applicable / DM (BRS);dm2_21_reqs_doc_not_applicable_1;Boolean
+Demand;21 Requirement documents not applicable / BA (BRS);dm2_21_reqs_doc_not_applicable_2;Boolean
+Demand;Demand Category;dm2_demand_category;Text
+Demand;Old Demand;dm2_old_demand;URL
+Demand;62 Pursue as new demand/project;dm2_62_pursue_as_new_demand_proj;Choice
+Demand;xTMP_Calculated_Hyperlink;xTMP_Calculated_Hyperlink;Calculated
+Demand;Demand Dashboard;dm2_link_to_demand_dashboard;Calculated
+Demand;Demand Phase;dm2_phase;Text
+Demand;PID 2;dm2_pid_agreement_2;Boolean
+Demand;Actual Effort;dm2_actual_effort;Number
+Demand;Budget Effort;dm2_budget_effort;Number
+Demand;Follow up Date;dm2_follow_up_date;DateTime
+Demand;Score;dm2_score;Number
+Demand;CMB Notes;dm2_cmb_notes;Note
+Demand;Project CMB Representative;dm2_proj_cmb_representative;User
+Demand;Project Demand Owner / Project Owner;dm2_proj_business_sponsor;User
+Demand;Project Demand Manager / Project Manager;dm2_proj_business_owner;User
+Demand;Project Team Effort (All);dm2_proj_team_effort_all;Note
+Demand;CirResButton;UmlaufApproval;Invalid
+Demand;IT Delivery Notes;dm2_it_delivery_notes;Note
+Demand;GCP Demand ID;dm2_gcp_demand_id;Number
+Demand;Group Single Instance related;dm2_gsi_related;Boolean
+Demand;Roadmap reference;dm2_roadmap_reference;Text
+Demand;Link to Group Demand;dm2_link_to_gd;URL
+Demand;PID Type;dm2_pid_type;Text
+Project;ProjectID;Title;Text
+Project;Project Sponsor;pm_largeprojectsp;User
+Project;Project Site;cp_linktowebsite;URL
+Project;Project Manager;pm_manager;User
+Project;ProjectTitle;ProjectTitle;Text
+Project;PlannedEndDate;ProposedEndDate;DateTime
+Project;ProjectStartDate;ProposedStartDate;DateTime
+Project;PlannedBudget;PlannedBudget;Currency
+Project;ProjectHealth;ProjectHealth;Choice
+Project;Dependencies/Control Notes;Dependencies;Note
+Project;ProjectPhase;ProjectPhase;Choice
+Project;BudgetRestriction;BudgetRestriction;Currency
+Project;Project Description;ProjectDescription;Note
+Project;ProjectStatus;ProjectStatus;Choice
+Project;Project;AccToPMOMethod;Boolean
+Project;Demand Number;df_demandnumber;Invalid
+Project;InitiatorOrgInfo;InitiatorOrgInfo;Text
+Project;ReportNotes;ReportNotes;Note
+Project;Cost Center Detail;CostCenter;Text
+Project;Team Effort;TeamResource;Text
+Task;Title;Title;Text
+Task;Predecessors;Predecessors;Lookup
+Task;on track;t_ontrack;Boolean
+Task;Phase;wp_phase;Lookup
+Task;WP Number (deprecated);df_wpnumber;Invalid
+Task;WP Container Number (deprecated);df_projectnumber;Invalid
+Task;Demand Number;df_demandnumber;Invalid
+Task;Demand Name;t_demand_name;Text
+Task;Demand Category;t_demand_category;Text
+Task;Related Project;t_demand_it_substream;Text
+Task;Assigned To;AssignedTo;User
+Task;Task Group;TaskGroup;User
+Task;Body;Body;Note
+Task;Start Date;StartDate;DateTime
+Task;Duration (Days);t_duration;Number
+Task;Task Budget Effort (MD);t_budgeteffort;Invalid
+Task;Task Actual Effort (MD);t_actualeffort;Invalid
+Task;Environment Resource;df_environmentresource;Lookup
+Task;Priority;Priority;Choice
+Task;% Complete;PercentComplete;Number
+Task;t_predecessor;t_predecessor;Lookup
+Task;Status;Status;Choice
+Task;DueDate;DueDate;DateTime
